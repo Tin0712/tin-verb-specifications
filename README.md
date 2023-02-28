@@ -1,5 +1,5 @@
-# verb-specificiations
-Verb Specification Utilities
+# tin-verb-specificiations
+Tin-Verb Specification Utilities
 
 #### Running the test suite
 ```
