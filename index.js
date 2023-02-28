@@ -1,4 +1,4 @@
 module.exports = {
-  ...require('./jambonz-app-json-validation'),
+  ...require('./app-json-validation'),
   specs: require('./specs')
 };

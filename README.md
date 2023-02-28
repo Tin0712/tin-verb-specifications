@@ -1,5 +1,5 @@
 # verb-specificiations
-Jambonz Verb Specification Utilities
+Verb Specification Utilities
 
 #### Running the test suite
 ```

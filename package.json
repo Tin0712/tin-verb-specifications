@@ -1,7 +1,7 @@
 {
-  "name": "@jambonz/verb-specifications",
-  "version": "0.0.6",
-  "description": "Jambonz Verb Specification Utilities",
+  "name": "tin-verb-specifications",
+  "version": "0.0.1",
+  "description": "Tin Verb Specification Utilities",
   "main": "index.js",
   "scripts": {
     "test": "node test/",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jambonz/verb-specifications.git"
+    "url": "git+https://github.com/tin-verb-specifications.git"
   },
   "author": "Dave Horton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jambonz/verb-specifications/issues"
+    "url": "https://github.com/tin-verb-specifications/issues"
   },
-  "homepage": "https://github.com/jambonz/verb-specifications#readme",
+  "homepage": "https://github.com/tin-verb-specifications#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-plugin-promise": "^4.3.1",

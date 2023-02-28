@@ -1,5 +1,5 @@
 const test = require('tape');
-const logger = require('pino')({level: process.env.JAMBONES_LOGLEVEL || 'error'});
+const logger = require('pino')({level: process.env.TIN_LOGLEVEL || 'error'});
 const { validate } = require('..');
 
 test("validate correct verbs", async (t) => {

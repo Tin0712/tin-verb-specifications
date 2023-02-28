@@ -1,1 +1,1 @@
-require('./jambonz-verb-test');
+require('./verb-test');

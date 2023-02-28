@@ -4,13 +4,13 @@ const _specData = require('./specs');
 const specs = new Map();
 for (const key in _specData) { specs.set(key, _specData[key]); }
 
-function normalizeJambones(logger, obj) {
+function normalizeabc(logger, obj) {
   if (!Array.isArray(obj)) {
-    throw new Error('malformed jambonz payload: must be array');
+    throw new Error('malformed abc payload: must be array');
   }
   const document = [];
   for (const tdata of obj) {
-    if (typeof tdata !== 'object') throw new Error('malformed jambonz payload: must be array of objects');
+    if (typeof tdata !== 'object') throw new Error('malformed abc payload: must be array of objects');
     if ('verb' in tdata) {
       // {verb: 'say', text: 'foo..bar'..}
       const name = tdata.verb;
@@ -27,16 +27,16 @@ function normalizeJambones(logger, obj) {
       document.push(tdata);
     }
     else {
-      logger.info(tdata, 'malformed jambonz payload: missing verb property');
-      throw new Error('malformed jambonz payload: missing verb property');
+      logger.info(tdata, 'malformed abc payload: missing verb property');
+      throw new Error('malformed abc payload: missing verb property');
     }
   }
-  debug({ document }, `normalizeJambones: returning document with ${document.length} tasks`);
+  debug({ document }, `: returning document with ${document.length} tasks`);
   return document;
 }
 
 function validate(logger, obj) {
-  normalizeJambones(logger, obj).map((tdata) => {
+  normalizeabc(logger, obj).map((tdata) => {
     const keys = Object.keys(tdata);
     const name = keys[0];
     const data = tdata[name];
