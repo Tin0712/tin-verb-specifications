@@ -1,6 +1,6 @@
 {
   "name": "tin-verb-specifications",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tin Verb Specification Utilities",
   "main": "index.js",
   "scripts": {

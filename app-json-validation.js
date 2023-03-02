@@ -1,5 +1,5 @@
 const assert = require('assert');
-const debug = require('debug')('jambonz:app-json-validation');
+const debug = require('debug')('app-json-validation');
 const _specData = require('./specs');
 const specs = new Map();
 for (const key in _specData) { specs.set(key, _specData[key]); }
